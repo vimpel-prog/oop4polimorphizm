@@ -1,4 +1,6 @@
 public class PassengerCar extends Car implements Competing {
+    public enum bodyType{SEDAN, HATCHBACK, COUPE, STATION_WAGON, SUV, CROSSOVER, PICKUP, VAN, MINIVAN
+    };
     public PassengerCar(String brand, String model, float engineVolume) {
         super(brand, model, engineVolume);
     }

@@ -3,6 +3,7 @@ public abstract class Car {
     String model;
     float engineVolume;
 
+
     public Car(String brand, String model, float engineVolume) {
         this.brand = validValue(brand);
         this.model = validValue(model);
